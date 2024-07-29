@@ -1,191 +1,247 @@
 <!DOCTYPE HTML>
-
 <html>
-	<head>
-		<title>Sushmitha Portfolio</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body class="is-preload">
+<head>
+    <title>Sushmitha Portfolio</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        #wrapper {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .inner {
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        header.major {
+            border-bottom: 2px solid #e6e6e6;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+        }
+        h1, h2, h3 {
+            color: #007bff;
+        }
+        .content {
+            text-align: center;
+        }
+        .content p {
+            line-height: 1.6;
+        }
+        .image.object img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+        }
+        .posts {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .posts article {
+            flex: 1 1 calc(50% - 20px);
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+        }
+        .posts article ul {
+            list-style: none;
+            padding: 0;
+        }
+        .posts article ul li {
+            margin: 10px 0;
+            display: flex;
+            align-items: center;
+        }
+        .posts article ul li .icon {
+            margin-right: 10px;
+            color: #007bff;
+        }
+        .contact {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        .contact li {
+            margin: 10px 0;
+            display: flex;
+            align-items: center;
+        }
+        .contact li .icon {
+            margin-right: 10px;
+            color: #007bff;
+        }
+    </style>
+</head>
+<body class="is-preload">
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+    <!-- Wrapper -->
+    <div id="wrapper">
 
-				<!-- Main -->
-					<div id="main">
-						<div class="inner">
+        <!-- Main -->
+        <div id="main">
+            <div class="inner">
 
-							<!-- Header -->
-								<!-- <header id="header">
-									<a href="index.html" class="logo"><strong>Chandrasekhar</strong> Software Developer</a>
-									<ul class="icons">
-										<li><a href="#" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-									</ul>
-								</header> -->
+                <!-- Banner -->
+                <section id="banner">
+                    <div class="content">
+                        <header>
+                            <h1>Sushmitha Boyapati</h1>
+                            <p>Professional Java Full Stack Developer </p>
+                        </header>
+                        <p>With 7 years of comprehensive experience in full stack development, I specialize in designing, developing, and deploying high-performance web applications. My expertise in Core Java, coupled with a deep understanding of Object-Oriented Concepts including Collections, Multi-Threading, and concurrency frameworks, enables me to create robust and efficient backend systems. On the front end, I am proficient in crafting dynamic and interactive user interfaces using modern technologies such as HTML5, CSS3, JavaScript, Bootstrap, React.js, and Angular. My ability to seamlessly integrate these technologies ensures a cohesive and engaging user experience. I am passionate about leveraging my skills to deliver innovative solutions that drive business success and user satisfaction.</p>
+                    </div>
+                    <span class="image object">
+                        <img src="images/my-photo.jpg" alt="" />
+                    </span>
+                </section>
 
-							<!-- Banner -->
-								<section id="banner">
-									<div class="content">
-										<header>
-											<h1>Sushmitha Boyapati</h1>
-											<p>Professional Java Full Stack Developer </p>
-										</header>
-										<p>With 7 years of comprehensive experience in full stack development, I specialize in designing, developing, and deploying high-performance web applications. My expertise in Core Java, coupled with a deep understanding of Object-Oriented Concepts including Collections, Multi-Threading, and concurrency frameworks, enables me to create robust and efficient backend systems. On the front end, I am proficient in crafting dynamic and interactive user interfaces using modern technologies such as HTML5, CSS3, JavaScript, Bootstrap, React.js, and Angular. My ability to seamlessly integrate these technologies ensures a cohesive and engaging user experience. I am passionate about leveraging my skills to deliver innovative solutions that drive business success and user satisfaction.</p>
+                <!-- Section -->
+                <section>
+                    <header class="major">
+                        <h2>Skill Set</h2>
+                    </header>
+                    <div class="posts">
+                        <article>
+                            <ul class="contact">
+                                <li class="icon solid fa-code"><h3>Programming Languages: </h3> Java, PL/SQL, SQL, C/C++, Python</li>
+                                <li class="icon solid fa-code"><h3>Web Technologies: </h3> HTML, CSS, JavaScript, TypeScript, JQuery, AJAX, Angular, Angular JS, ReactJS, Redux, React Native, NodeJS</li>
+                                <li class="icon solid fa-database"><h3>DataBases: </h3> Oracle, SQL Server, My-SQL, No-SQL, MS SQL, MongoDB, Couch DB, Cassandra, Dynamo DB, Graph DB</li>
+                                <li class="icon solid fa-gear"><h3>Cloud Technologies: </h3> AWS (EC2, S3, RDS, ELB, EBS), Azure Virtual Machines (VMs), Azure Blob Storage, Azure SQL Database, Azure Load Balancer, Azure Managed Disks</li>
+                            </ul>
+                        </article>
+                        <article>
+                            <ul class="contact">
+                                <li class="icon solid fa-code-branch"><h3>API: </h3> Web API, REST API</li>
+                                <li class="icon solid fa-tools"><h3>Tools and Utilities: </h3> GitHub, Bitbucket, Visual Studio, VS Code, JIRA</li>
+                                <li class="icon solid fa-cloud"><h3>Operating Systems: </h3> Windows, Linux, UNIX </li>
+                            </ul>
+                        </article>
+                    </div>
+                </section>
 
-										<!-- <ul class="actions">
-											<li><a href="#" class="button big">Learn More</a></li>
-										</ul> -->
-									</div>
-									<span class="image object">
-										<img src="images/my-photo.jpg" alt="" />
-									</span>
-								</section>
+                <!-- Section -->
+                <section>
+                    <header class="major">
+                        <h2>Recent Work</h2>
+                    </header>
+                    <div class="posts">
+                        <article>
+                            <h3>Full Stack Developer</h3>
+                            <p class="label">ADP, LA, California  (Feb 2024 - Present)</p>
+                            <ul>
+                                <li>Designed and developed interactive and dynamic web pages using HTML5, CSS3, JavaScript, jQuery, Bootstrap, and AJAX.</li>
+                                <li>Built responsive Single Page Applications (SPA) with React.js and Bootstrap, ensuring seamless navigation using react-router-dom and efficient state management with Redux.</li>
+                                <li>Developed enterprise applications using Spring MVC for maintaining loose coupling between layers and intercepting user requests with various controllers.</li>
+                                <li>Worked extensively with Hibernate, including connection pooling, HQL, Collections, Caching, and Transactions, to manage data persistence efficiently.</li>
+                                <li>Implemented microservices architecture using Spring Boot and deployed applications on Amazon EC2 container services via the AWS admin console.</li>
+                                <li>Developed Restful services utilizing ASP.NET Web API, programmatically configured service web.config files with LINQ to XML. Employed Generics, Lambda Expressions, Extension Methods, and utilized LINQ to SQL and LINQ to ObjectsConducted unit testing with JUnit and ensured application reliability through Test Driven Development (TDD) and Agile methodologies, actively participating in scrum activities.</li>
+                            </ul>
+                        </article>
+                        <article>
+                            <h3>Full Stack Developer</h3>
+                            <p class="label">PayChex, Rochester, NY (June 2022 - Jan 2024)</p>
+                            <ul>
+                                <li>Created dynamic frontend interfaces using HTML5, CSS3, JavaScript, Bootstrap, and React.js, developing reusable components and implementing view data controllers.</li>
+                                <li>Built various frontend screens and applications using React.js, leveraging predefined components from NPM and the Redux library for state management.</li>
+                                <li>Designed and implemented a Node.js-based web text and voice messaging app with a cloud backend, showcasing full stack development capabilities.</li>
+                                <li>Utilized React.js for templating, faster compilation, and building user interface components, including filters and font size modifiers.</li>
+                                <li>Developed and implemented web-based applications using the Spring Framework following the MVC pattern, and designed REST-based microservices using Spring Boot for modular development.</li>
+                                <li>Utilized Hibernate for Object-Relational Mapping (ORM) to communicate with databases and store persistent data effectively.</li>
+                                <li>Extensively used Java 8 features such as lambda expressions, parallel operations on collections, multithreading, and effective sorting mechanisms to enhance application performance.</li>
+                                <li>Employed Streams and Lambda expressions for efficient data storage and processing.</li>
+                                <li>Managed AWS cloud services including EC2, S3, RDS, ELB, and EBS for installation, configuration, and auto-scaling, ensuring robust cloud infrastructure management.</li>
+                                <li>Worked with Docker engine and environments to deploy microservices, creating custom container images and managing deployment processes.</li>
+                                <li>Utilized Jenkins for continuous integration, automating end-to-end build and deployment processes to ensure efficient software delivery.</li>
+                                <li>Conducted unit testing with JUnit and enabled runtime logging using log4J to validate application logic and ensure system quality.</li>
+                            </ul>
+                        </article>
+                        <article>
+                            <h3>Java Full Stack Developer</h3>
+                            <p class="label">LPL Financial, San Diego, California  (Dec 2020 - May 2022)</p>
+                            <ul>
+                                <li>Collaborated with business analysts to gather requirements and understand functional design specifications, ensuring alignment with project goals.</li>
+                                <li>Developed Single Page Applications (SPA) using Angular, creating reusable components, pipes, directives, and services, and leveraging Angular.js for routing, forms, and HTTP requests.</li>
+                                <li>Utilized the Spring Framework for front-end development, Dependency Injection, and integrated it with Hibernate for robust backend development.</li>
+                                <li>Developed and deployed Spring Boot applications using an Annotation-Driven Approach, configured Spring Bean Profiling, and leveraged Spring Boot for cloud microservices development and deployment on Azure App Services and Azure Kubernetes Service (AKS).</li>
+                                <li>Created data sources and deployed web applications on IBM WebSphere Application Server, and developed web services using SOAP, WSDL, JAXB, and XML, implementing SOA architecture.</li>
+                                <li>Utilized Azure DevOps for continuous integration and end-to-end automation of build and deployment processes, and managed application lifecycle with Docker containers.</li>
+                            </ul>
+                        </article>
+                        <article>
+                            <h3>Java Full Stack Developer</h3>
+                            <p class="label">Molina HealthCare, Irving, Texas  (Mar 2019 - Nov 2020)</p>
+                            <ul>
+                                <li>Participated in the complete project life cycle, including analyzing client requirements, designing, developing, and testing, following Agile methodology with daily scrum meetings, sprint planning, and resource planning.</li>
+                                <li>Designed UML Use Case diagrams, Class diagrams, and Sequence diagrams using Rational Rose to represent system functionality and workflow.</li>
+                                <li>Implemented Spring MVC framework, developing Controller classes for handling requests and processing form submissions, and creating user interface pages using JSP.</li>
+                                <li>Developed User Interface with AngularJS, utilizing sorting, filtering, pagination, and rendering operations, and implemented form field validations using AngularJS and HTML.</li>
+                                <li>Created Tables, Stored Procedures, User Defined Functions, Views, and Triggers for various data operations on SQL Server, and used Hibernate and JPA in the data access layer for data persistency using MySQL.</li>
+                                <li>Utilized Jenkins for continuous deployment, JIRA for issue tracking, Maven for project builds, SVN for version control, and JUnit for unit testing, ensuring efficient development and deployment processes.</li>
+                            </ul>
+                        </article>
+                        <article>
+                            <h3>Java Developer</h3>
+                            <p class="label">Infotech, Hyderabad, India (Mar 2018 - Feb 2019)</p>
+                            <ul>
+                                <li>Designed and coded web pages using JSP, Servlets, HTML, and CSS, integrating Java code (API) in JSP Pages and implementing responsive designs using Bootstrap.</li>
+                                <li>Used jQuery core library functions for client-side logical implementation across the application, interacting with Java controllers (jQuery, Ajax, and JSON) to write/read data from back-end systems.</li>
+                                <li>Utilized Struts Framework as a middle-tier application framework, employing Hibernate for database integration, and designed user interface layouts ensuring cross-browser compatibility using JavaScript, CSS, and HTML.</li>
+                                <li>Developed the presentation layer using Struts Tag Libraries, Struts Tiles Framework, JSP, HTML, AJAX, and CSS.</li>
+                                <li>Transformed reusable code to Java Beans Components and utilized React for component-based UI development.</li>
+                                <li>Developed a reporting tool integrated with the Management tool to generate comprehensive reports.</li>
+                            </ul>
+                        </article>
+                    </div>
+                </section>
+                <section>
+                    <header class="major">
+                        <h2>Education</h2>
+                    </header>
+                    <div class="posts">
+                        <article>
+                            <h3>Master's in Computer and Information Science</h3>
+                            <p class="label">University of North Texas, Denton, Texas, USA</p>
+                        </article>
+                        <article>
+                            <h3>Bachelor's in Computer Science and Engineering</h3>
+                            <p class="label">JNTUH, Hyderabad, TS, India</p>
+                        </article>
+                    </div>
+                </section>
+                <section>
+                    <header class="major">
+                        <h2>Get in touch</h2>
+                    </header>
+                    <p></p>
+                    <ul class="contact">
+                        <li class="icon solid fa-envelope"><a href="#">sushmithab245@gmail.com</a></li>
+                        <li class="icon solid fa-phone">972-318-9726</li>
+                        <li class="icon solid fa-home">2312 Cerros Lane<br>Denton, TX 76207</li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+    </div>
 
-							<!-- Section -->
-								<section>
-									<header class="major">
-										<h2>Skill Set</h2>
-									</header>
-								
-								
-									<!-- <div class="section-title">
-								          <span>About Me</span>
-								          <h2>About Me</h2>
-								        </div> -->
-								
-									<div class="posts">
-										<article>
-											<ul class="contact">
-												<li class="icon solid fa-code"><h3>Programming Languages: </h3> Java, PL/SQL, SQL, C/C++, Python</li>
-												<li class="icon solid fa-code"><h3>Web Technologies: </h3> HTML, CSS, JavaScript, TypeScript, JQuery, AJAX, Angular, Angular JS, ReactJS, Redux, React Native, NodeJS</li>
-												<li class="icon solid fa-database"><h3>DataBases: </h3> Oracle, SQL Server, My-SQL, No-SQL, MS SQL, MongoDB, Couch DB, Cassandra, Dynamo DB, Graph DB</li>
-												<li class="icon solid fa-gear"><h3>Cloud Technologies: </h3> AWS (EC2, S3, RDS, ELB, EBS), Azure Virtual Machines (VMs), Azure Blob Storage, Azure SQL Database, Azure Load Balancer, Azure Managed Disks</li>
-											</ul>
-										</article>
-										<article>
-											<ul class="contact">
-												<li class="icon solid fa-code-branch"><h3>API: </h3> Web API, REST API</li>
-												<li class="icon solid fa-tools"><h3>Tools and Utilities: </h3> GitHub, Bitbucket, Visual Studio, VS Code, JIRA</li>
-												<li class="icon solid fa-cloud"><h3>Operating Systems: </h3> Windows, Linux, UNIX </li>
-											</ul>
-										</article>
-									</div>
-								</section>
-
-							<!-- Section -->
-								<section>
-									<header class="major">
-										<h2>Recent Work</h2>
-									</header>
-									<div class="posts">
-										<article>
-											<h3>Full Stack Developer</h3>
-											<p class="label">ADP, LA, California  (Feb 2024 - Present)</p>
-											<ul>
-												<li>Designed and developed interactive and dynamic web pages using HTML5, CSS3, JavaScript, jQuery, Bootstrap, and AJAX.</li>
-												<li>Built responsive Single Page Applications (SPA) with React.js and Bootstrap, ensuring seamless navigation using react-router-dom and efficient state management with Redux.</li>
-												<li>Developed enterprise applications using Spring MVC for maintaining loose coupling between layers and intercepting user requests with various controllers.</li>
-												<li>Worked extensively with Hibernate, including connection pooling, HQL, Collections, Caching, and Transactions, to manage data persistence efficiently.</li>
-												<li>Implemented microservices architecture using Spring Boot and deployed applications on Amazon EC2 container services via the AWS admin console.</li>
-												<li>Developed Restful services utilizing ASP.NET Web API, programmatically configured service web.config files with LINQ to XML. Employed Generics, Lambda Expressions, Extension Methods, and utilized LINQ to SQL and LINQ to ObjectsConducted unit testing with JUnit and ensured application reliability through Test Driven Development (TDD) and Agile methodologies, actively participating in scrum activities.</li>
-											</ul>
-										</article>
-										<article>
-											<h3>Full Stack Developer</h3>
-											<p class="label">PayChex, Rochester, NY	(June 2022 - Jan 2024)</p>
-											<ul>
-												<li>Created dynamic frontend interfaces using HTML5, CSS3, JavaScript, Bootstrap, and React.js, developing reusable components and implementing view data controllers.</li>
-											        <li>Built various frontend screens and applications using React.js, leveraging predefined components from NPM and the Redux library for state management.</li>
-											        <li>Designed and implemented a Node.js-based web text and voice messaging app with a cloud backend, showcasing full stack development capabilities.</li>
-											        <li>Utilized React.js for templating, faster compilation, and building user interface components, including filters and font size modifiers.</li>
-											        <li>Developed and implemented web-based applications using the Spring Framework following the MVC pattern, and designed REST-based microservices using Spring Boot for modular development.</li>
-											        <li>Utilized Hibernate for Object-Relational Mapping (ORM) to communicate with databases and store persistent data effectively.</li>
-											        <li>Extensively used Java 8 features such as lambda expressions, parallel operations on collections, multithreading, and effective sorting mechanisms to enhance application performance.</li>
-											        <li>Employed Streams and Lambda expressions for efficient data storage and processing.</li>
-											        <li>Managed AWS cloud services including EC2, S3, RDS, ELB, and EBS for installation, configuration, and auto-scaling, ensuring robust cloud infrastructure management.</li>
-											        <li>Worked with Docker engine and environments to deploy microservices, creating custom container images and managing deployment processes.</li>
-											        <li>Utilized Jenkins for continuous integration, automating end-to-end build and deployment processes to ensure efficient software delivery.</li>
-												<li>Conducted unit testing with JUnit and enabled runtime logging using log4J to validate application logic and ensure system quality.</li>
-											</ul>
-										</article>
-										<article>
-											<h3>Java Full Stack Developer</h3>
-											<p class="label">LPL Financial, San Diego, California  (Dec 2020 - May 2022)</p>
-											<ul>
-												<li>Collaborated with business analysts to gather requirements and understand functional design specifications, ensuring alignment with project goals.</li>
-											        <li>Developed Single Page Applications (SPA) using Angular, creating reusable components, pipes, directives, and services, and leveraging Angular.js for routing, forms, and HTTP requests.</li>
-											        <li>Utilized the Spring Framework for front-end development, Dependency Injection, and integrated it with Hibernate for robust backend development.</li>
-											        <li>Developed and deployed Spring Boot applications using an Annotation-Driven Approach, configured Spring Bean Profiling, and leveraged Spring Boot for cloud microservices development and deployment on Azure App Services and Azure Kubernetes Service (AKS).</li>
-											        <li>Created data sources and deployed web applications on IBM WebSphere Application Server, and developed web services using SOAP, WSDL, JAXB, and XML, implementing SOA architecture.</li>
-											        <li>Utilized Azure DevOps for continuous integration and end-to-end automation of build and deployment processes, and managed application lifecycle with Docker containers.</li>
-											</ul>
-										</article>
-										<article>
-											<h3>Java Full Stack Developer</h3>
-											<p class="label">Molina HealthCare, Irving, Texas  (Mar 2019 - Nov 2020)</p>
-											<ul>
-												<li>Participated in the complete project life cycle, including analyzing client requirements, designing, developing, and testing, following Agile methodology with daily scrum meetings, sprint planning, and resource planning.</li>
-											        <li>Designed UML Use Case diagrams, Class diagrams, and Sequence diagrams using Rational Rose to represent system functionality and workflow.</li>
-											        <li>Implemented Spring MVC framework, developing Controller classes for handling requests and processing form submissions, and creating user interface pages using JSP.</li>
-											        <li>Developed User Interface with AngularJS, utilizing sorting, filtering, pagination, and rendering operations, and implemented form field validations using AngularJS and HTML.</li>
-											        <li>Created Tables, Stored Procedures, User Defined Functions, Views, and Triggers for various data operations on SQL Server, and used Hibernate and JPA in the data access layer for data persistency using MySQL.</li>
-											        <li>Utilized Jenkins for continuous deployment, JIRA for issue tracking, Maven for project builds, SVN for version control, and JUnit for unit testing, ensuring efficient development and deployment processes.</li>
-											</ul>
-										</article>
-										<article>
-											<h3>Java Developer</h3>
-											<p class="label">Infotech, Hyderabad, India (Mar 2018 - Feb 2019)</p>
-											<ul>
-												<li>Designed and coded web pages using JSP, Servlets, HTML, and CSS, integrating Java code (API) in JSP Pages and implementing responsive designs using Bootstrap.</li>
-											        <li>Used jQuery core library functions for client-side logical implementation across the application, interacting with Java controllers (jQuery, Ajax, and JSON) to write/read data from back-end systems.</li>
-											        <li>Utilized Struts Framework as a middle-tier application framework, employing Hibernate for database integration, and designed user interface layouts ensuring cross-browser compatibility using JavaScript, CSS, and HTML.</li>
-											        <li>Developed the presentation layer using Struts Tag Libraries, Struts Tiles Framework, JSP, HTML, AJAX, and CSS.</li>
-											        <li>Transformed reusable code to Java Beans Components and utilized React for component-based UI development.</li>
-											        <li>Developed a reporting tool integrated with the Management tool to generate comprehensive reports.</li>
-											</ul>
-										</article>
-									</div>
-								</section>
-								<section>
-									<header class="major">
-										<h2>Education</h2>
-									</header>
-									<div class="posts">
-										<article>
-											<h3>Master's in Computer and Information Science</h3>
-											<p class="label">University of North Texas, Denton, Texas, USA</p>
-										</article>
-										<article>
-											<h3>Bachelor's in Computer Science and Engineering</h3>
-											<p class="label">JNTUH, Hyderabad, TS, India</p>
-										</article>
-									</div>
-								</section>
-								<section>
-									<header class="major">
-										<h2>Get in touch</h2>
-									</header>
-									<p></p>
-									<ul class="contact">
-										<li class="icon solid fa-envelope"><a href="#">sushmithab245@gmail.com</a></li>
-										<li class="icon solid fa-phone">972-318-9726</li>
-										<li class="icon solid fa-home">2312 Cerros Lane<br>
-											Denton, TX 76207</li>
-									</ul>
-								</section>
-						</div>
-					</div>
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.browser/0.0.8/jquery.browser.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/breakpoints.js/1.0.0/breakpoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.easing/1.4.1/jquery.easing.min.js"></script>
+</body>
 </html>
